@@ -1,0 +1,15 @@
+# Config parsing
+pyyaml>=6.0.1
+
+# Exchange API libraries
+python-binance>=1.0.19
+pybit>=5.8.0
+ccxt>=4.2.82
+
+# Database adapter for PostgreSQL
+psycopg2-binary>=2.9.9
+
+# Utility libraries (optional but very useful for data handling)
+pandas>=2.2.0
+requests>=2.31.0
+python-dotenv>=1.0.1
