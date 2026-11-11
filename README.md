@@ -1,25 +1,21 @@
+<!-- CryptoSight · README by Usama Shahid (fewgets) -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=28&pause=1000&color=F7931A&center=true&vCenter=true&width=650&lines=CryptoSight+%F0%9F%93%88;Never+Miss+a+Candle+Again;Binance+%2B+Bybit+%E2%86%92+PostgreSQL;Clean.+Resumable.+Gap-Free." alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,55:0F3D3E,100:36FFC7&height=230&section=header&text=CryptoSight&fontSize=60&fontColor=FFFFFF&fontAlignY=36&desc=Gap-free%2C%20auto-resuming%20crypto%20OHLCV%20data%20pipeline&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="CryptoSight"/>
 
-# 📈 CryptoSight
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=700&color=36FFC7&center=true&vCenter=true&width=720&height=60&lines=Never+Miss+a+Candle+Again;Binance+%2B+Bybit+to+PostgreSQL;Clean.+Resumable.+Gap-Free." alt="Typing SVG"/>
 
-**A self-healing crypto market-data pipeline that just... works.**
-
-Point it at Binance or Bybit. Walk away. Come back to a spotless, gap-free,
-duplicate-free OHLCV history sitting in your own PostgreSQL database — every
-single time you run it.
-
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Binance](https://img.shields.io/badge/Binance-F0B90B?style=for-the-badge&logo=binance&logoColor=black)
-![Bybit](https://img.shields.io/badge/Bybit-F7A600?style=for-the-badge&logo=bybit&logoColor=white)
-![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/Binance-F0B90B?style=for-the-badge&logo=binance&logoColor=black" alt="Binance"/>
+  <img src="https://img.shields.io/badge/Bybit-F7A600?style=for-the-badge&logo=bybit&logoColor=black" alt="Bybit"/>
+</p>
 
 </div>
 
 ---
-
 ## 🤔 Why does this exist?
 
 Anyone who has tried to build a backtest, a dashboard, or a trading bot on
@@ -79,7 +75,7 @@ graph LR
 ## 📁 Project Structure
 
 ```text
-cryptosight/
+CryptoSight/
 ├── data/
 │   ├── binance/
 │   │   ├── binance_client_exch.py   # Binance historical-klines client
@@ -106,6 +102,9 @@ cryptosight/
 ### 1. Install dependencies
 
 ```bash
+git clone https://github.com/fewgets/CryptoSight.git
+cd CryptoSight
+
 python -m venv venv
 venv\Scripts\activate        # Windows
 pip install -r requirements.txt
@@ -181,13 +180,36 @@ merged_df, resampled_4h = resample_ohlcv(
 ## 🤝 Contributing
 
 Found a bug, a gap in the data logic, or want to add another exchange?
-Issues and PRs are welcome — this is an actively evolving pipeline, not a
+Issues and PRs are welcome. This is an actively evolving pipeline, not a
 finished museum piece.
 
 ---
 
+## 🤝 Let's Work Together
+
 <div align="center">
 
-**If CryptoSight saved you from writing yet another janky data-fetch script — a ⭐ is appreciated.**
+**Have an idea, a freelance project, or want to collaborate on something in AI?**
+I'm always open to collaborations, freelance work and full-time opportunities.
+
+<a href="mailto:shaikhusama541@gmail.com?subject=Collaboration%20-%20CryptoSight">
+  <img src="https://img.shields.io/badge/Email-shaikhusama541%40gmail.com-36FFC7?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email"/>
+</a>
+<a href="https://www.linkedin.com/in/-usamashahid/">
+  <img src="https://img.shields.io/badge/LinkedIn-Usama%20Shahid-36FFC7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"/>
+</a>
+<a href="https://github.com/fewgets">
+  <img src="https://img.shields.io/badge/GitHub-fewgets-36FFC7?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub"/>
+</a>
+
+<br/><br/>
+
+⭐ **If you like this project, please give it a star. It really helps!** ⭐
+
+<br/>
+
+<h3>"Trustworthy data is the foundation of every good trade."</h3>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:36FFC7,55:0F3D3E,100:0D1117&height=150&section=footer&animation=twinkling" width="100%" alt="footer"/>
 
 </div>
